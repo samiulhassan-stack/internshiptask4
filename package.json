@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Multi-field form with client and server validation",
   "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
   "scripts": {
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "vite",

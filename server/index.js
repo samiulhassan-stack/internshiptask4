@@ -292,3 +292,6 @@ app.listen(PORT, () => {
   console.log('  GET  /api/health - Health check');
   console.log('');
 });
+
+// Export for Vercel serverless
+export default app;
