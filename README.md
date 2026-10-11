@@ -58,7 +58,7 @@ A full-stack event registration form with comprehensive client-side and server-s
    npm install
    ```
 
-2. **Run both client and server:**
+2. **Run both client and server (Development):**
    ```bash
    npm run dev
    ```
@@ -66,6 +66,14 @@ A full-stack event registration form with comprehensive client-side and server-s
    This starts:
    - Frontend: http://localhost:3000
    - Backend: http://localhost:5000
+
+### Live Demo
+
+🌐 **Live Application:** https://internshiptask4-kh3f.vercel.app
+
+The application is deployed on Vercel with both frontend and backend API routes.
+
+**Note:** File uploads in production are stored in memory only (Vercel serverless limitation). For persistent storage, integrate with Cloudinary or AWS S3.
 
 ### Alternative: Run Separately
 

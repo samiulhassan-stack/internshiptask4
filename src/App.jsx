@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Toast from './components/Toast';
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || (import.meta.env.PROD ? '' : 'http://localhost:5000');
 
 function App() {
   const [formData, setFormData] = useState({
